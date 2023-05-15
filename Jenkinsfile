@@ -3,8 +3,8 @@ pipeline {
     stages {
       stage('Git Clone') {
         steps{
-          git url:'https://github.com/mihai23bogdan/nodejs-weather-app', branch: 'master'
+          git url:'https://github.com/mihairepo23/simple-webapp-flask-1.git', branch: 'master'
         }
-    }
-   } 
+      }
+    } 
   }
